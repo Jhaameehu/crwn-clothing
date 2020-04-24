@@ -21,4 +21,4 @@ const config = {
   const provider = new firebase.auth.GoogleAuthProvider();
   export const signInWithGoogle = () => auth.signInWithPopup(provider);
 
-  export default firebase;
+  export default firebase; 
